@@ -16,6 +16,7 @@ function ProForm<T = Record<string, any>>(
     children?: React.ReactNode | React.ReactNode[];
   },
 ) {
+  console.log('wxh'.repeat(100));
   return (
     <BaseForm
       layout="vertical"
